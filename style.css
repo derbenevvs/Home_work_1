@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_top {
+    width: 100%;
+    background: #222222;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    /* .header_top_center {
+        width: 1130px;
+        display: flex;
+        justify-content: space-between;
+    } */
+
+    .header_top_left {
+        width: 105px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header_top_reght {
+        width: 160px;
+        display: flex;
+        justify-content: space-between;
+    }
+.header_bottom {
+    background: #F1E4E6;
+    width: 100%;
+    height: 764px;
+    display: flex;
+    align-items: center;
+    }
+.img_1 {
+    padding-right: 16px;
+}
+.content_1 {
+    width: 100%;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+ }
+ .content_2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .contener {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    width:  360px;
+    height: 260px;
+    border: 1px solid #000;
+}
+.item_bottom {
+    width:  1140px;
+    height: 180px;
+    border: 1px solid rgb(29, 21, 145);
+}
+.content_3 {
+    display: flex;
+    justify-content: center;
+}
+.contener_product {
+    height: 1395px;
+    width: 1140px;
+    margin-top: 95px;
+}
+.content_botton {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.contener_h3 {
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+.contener_p {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+.product {
+    height: 581px;
+    width: 360px;
+    background: #F8F8F8;
+}
+.content_top {
+    display: flex;
+    justify-content: center;
+}
+.product_h4 {
+    padding: 25px 0px 0px 18px;
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+.product_p {
+    padding: 12px 0px 0px 18px;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+.price {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding: 18px 0px 0px 18px;
+}
+
+
+/* .footer {
+    height: 100px;
+    background-color: #2e353d; 
+}
+
+
+.button {
+    background-color: rgb(25, 0, 255);
+    width:  50px;
+    height: 100px;
+}
+.button:hover {
+    background-color: aqua;
+} */
