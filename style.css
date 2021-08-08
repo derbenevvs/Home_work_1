@@ -556,6 +556,17 @@
   width: 100%;
   height: 777px;
   background: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contener_slider .slider_contener_center {
+  height: 724px;
+  width: 597px;
 }
 
 .contener_centr {
@@ -593,12 +604,48 @@
   border-bottom: 1px solid #EAEAEA;
 }
 
+.contener_centr .contener_center_1 .contener_center_top .contener_center_top_txt {
+  text-align: center;
+  padding-top: 64px;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+}
+
+.contener_centr .contener_center_1 .contener_center_top .contener_center_txt {
+  padding-top: 27px;
+  font-family: Lato;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+}
+
+.contener_centr .contener_center_1 .contener_center_top .contener_center_txt_bottom {
+  padding-top: 48px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5E5E5E;
+}
+
+.contener_centr .contener_center_1 .contener_center_top .contener_center_price {
+  font-family: Lato;
+  padding-top: 22px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+}
+
 .contener_centr .contener_center_1 .button_product {
   width: 641px;
   height: 243px;
 }
 
-.contener_centr .contener_center_1 .button_bottom_product_center {
+.contener_centr .contener_center_1 .button_product .button_bottom_product_center_1 {
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -612,7 +659,7 @@
           align-items: center;
 }
 
-.button_bottom_product {
+.contener_centr .contener_center_1 .button_product .button_bottom_product_center_1 .button_bottom_product_bottom {
   width: 211px;
   height: 47px;
   border: 1px solid #F26376;
@@ -628,11 +675,12 @@
           align-items: center;
 }
 
-.button_txt {
+.contener_centr .contener_center_1 .button_product .button_bottom_product_center_1 .button_txt_product {
   color: #F26376;
   font-family: Lato;
   font-size: 16px;
   line-height: 19px;
   margin-left: 8px;
+  margin-top: 14px;
 }
 /*# sourceMappingURL=style.css.map */
