@@ -136,6 +136,7 @@
 .content_3 {
     display: flex;
     justify-content: center;
+    
 }
 .contener_product {
     min-height: 1300px;
@@ -144,7 +145,10 @@
 }
 .content_bottom_top {
     max-width: 1140px;
+    position: relative;
+    z-index: 2;
 }
+
 .content_bottom {
     display: flex;
     flex-wrap: wrap;
@@ -173,6 +177,7 @@
     width: 360px;
     background: #F8F8F8;
     position: relative;
+    z-index: 2;
     margin-bottom: 30px;
 }
 .product:hover .produce_img {
@@ -523,18 +528,37 @@ margin-left: 8px;
         .registration_contener_centr {
             padding-top: 64px;
             padding-bottom: 96px;
-            max-width: 1140px;
+            max-width: 100%;
             display: flex;
-            justify-content: space-between;
                 .registration_contener_left {
                     width: 360px;
+                    margin-right: 128px;
                 }
                 .registration_contener_right {
                     width: 652px;
-                border: 1px solid #000;
-            }
+                }
         }
     }
+    .registration_contener_right_bottom {
+        display: flex;
+        margin-top: 23px;
+        }
+        .registration_contener_right_img {
+            margin-right: 23px;
+            width: 20px;
+            height: 16px;
+            padding-top: 10px;
+            
+        }
+        .registration_contener_right_txt {
+            font-family: Lato;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000000;
+        }
+        .registration_contener_margin {
+            margin-bottom: 22px;
+        }
     .a_menu {
         padding-top: 27px;
     }
@@ -565,7 +589,15 @@ margin-left: 8px;
  .registration_checkbox {
     border: 1px solid #A4A4A4;
     box-sizing: border-box;
+    margin-right: 9px;
+    }
+ .registration_checkbox_punct {
+     display: flex;
+     align-items: center;
+     margin-top: 9px;
+     margin-left: 9px;
  }
+ 
  .catalog_menu {
      width: 100%;
      height: 133px;
@@ -583,8 +615,7 @@ margin-left: 8px;
  .catalog_filtr_left {
     width: 350px;
     height: 50px;
-   border: 2px solid #000000;
-   display: flex;
+    display: flex;
    justify-content: space-around;
    align-items: center;
  }
@@ -613,13 +644,78 @@ margin-left: 8px;
         line-height: 17px;
         color:#F16D7F;
     }
+    .catalog_filtr_left_button {
+        display: flex;
+        padding: 5%;
+        }
+    .catalog_filtr_left_button_txt {
+        font-family: Lato;
+        font-size: 25px;
+        line-height: 17px;
+        color: #EF5B70;
+        margin-right: 11px;
+    }
+    .catalog_filtr_left_button_menu {
+        height: 531px;
+        width: 352px;
+        background: #FFFFFF;
+        display: none;
+        margin-top: 35px;
+        margin-left: -25px;
+        position: absolute;
+        z-index: 3;
+        }
+    .catalog_filtr_left_button_menu_punct_1 {
+        display: flex;
+        border-bottom: 1px solid #EBEBEB;
+        margin-bottom: 23px;
+        padding-left: 17px;
+        position: absolute;
+        z-index: 4;
+    }
+    .catalog_filtr_left_button_menu_punct_box:hover .catalog_filtr_left_button_menu_spisok_1 {
+        display: block;
+    }
+
+    .catalog_filtr_left_button_menu_punct_txt {
+        font-family: Lato;
+        font-size: 18px;
+        line-height: 17px;
+        color: #EF5B70;
+        margin-top: 10px;
+                
+    }
+    .catalog_filtr_left_button:hover .catalog_filtr_left_button_menu {
+        display: block;
+    }
+    .catalog_filtr_left_button_menu_punct_img {
+        margin-right: 11px;
+    }
+    .catalog_filtr_left_button_menu_a {
+        text-decoration: none;
+        font-family: Lato;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+    }
+    .catalog_filtr_left_button_menu-link_1 {
+        margin-bottom: 11px;
+        padding-top: 50px;
+        
+    }
+    .catalog_filtr_left_button_menu_spisok_1 {
+        padding-left: 34px;
+        display: none;
+        }
+
+
 .catalog_menu_size {
      display: none;
      width: 79px;
-     height: 103px;
-     border: 2px solid #000000;
      position: absolute;
+     z-index: 3;
      background: #ffffff;
+     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
      margin-top: 120px;
  }
 .catalog_filtr_2:hover .catalog_menu_size {
@@ -656,7 +752,7 @@ margin-left: 8px;
     }
     .content_bottom {
         justify-content: space-around;
-    }
+       }
     .product {
         width: 48%;
     }
